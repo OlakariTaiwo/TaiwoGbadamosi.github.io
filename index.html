@@ -1,87 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Professional GitHub Repository Landing Page">
-  <title>GitHub Projects - Landing Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-    }
-    section {
-      padding: 20px;
-      margin: 20px 0;
-    }
-    .project-card {
-      background-color: #fff;
-      padding: 15px;
-      margin: 15px 0;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    .project-card h3 {
-      margin-top: 0;
-    }
-    .project-link {
-      color: #1E90FF;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .project-link:hover {
-      text-decoration: underline;
-    }
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional GitHub Repository Landing Page">
+    <title>My GitHub Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #121212;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            padding: 30px 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 2.5em;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .project-card {
+            background: #1e1e1e;
+            border-radius: 12px;
+            padding: 20px;
+            width: 300px;
+            margin: 20px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+        .project-card h3 {
+            margin-bottom: 10px;
+            color: #4db8ff;
+        }
+        .project-card p {
+            font-size: 14px;
+            color: #aaa;
+            margin-bottom: 15px;
+        }
+        .project-link {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #4db8ff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+        .project-link:hover {
+            background: #007acc;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #1e1e1e;
+        }
+    </style>
 </head>
 <body>
 
 <header>
-  <h1>Welcome to My GitHub Repository</h1>
-  <p>Explore my projects and learn more about the work I've done!</p>
+    <h1>Welcome to My GitHub Projects</h1>
+    <p>Explore my work and discover amazing data analytics projects.</p>
 </header>
 
-<section>
-  <div class="project-card">
-    <h3>Project 1: Paul Biker Analysis Power Bi</h3>
-    <p>This project demonstrates how to analyze sales data using Power BI, providing insights on trends, profit, and product performance.</p>
-    <a class="project-link" href=https://github.com/OlakariTaiwo/Paul-Biker-" target="_blank">Access Project Files</a>
-  </div>
-
-  <div class="project-card">
-    <h3>Project 2: RFM-Analysis-Project Power Bi</h3>
-    <p>A dashboard that visualizes COVID-19 statistics, including vaccination rates, case numbers, and mortality rates across various countries.</p>
-    <a class="project-link" href="https://github.com/OlakariTaiwo/RFM-Analysis-Project" target="_blank">Access Project Files</a>
-  </div>
-
-  <div class="project-card">
-    <h3>Project 3: Retail-Store-Analysis Project HTML</h3>
-    <p>This project presents a Power BI dashboard that tracks sales performance, product category performance, and regional performance.</p>
-    <a class="project-link" href="https://github.com/OlakariTaiwo/Retail-Store-Analysis" target="_blank">Access Project Files</a>
-  </div>
-
-</section>
+<div class="container">
+    <div class="project-card">
+        <h3>Customer Segmentation Dashboard</h3>
+        <p>RFM analysis using Power BI.</p>
+        <a class="project-link" href="https://github.com/OlakariTaiwo/RFM-Analysis-Project" target="_blank">View Project</a>
+    </div>
+    
+    <div class="project-card">
+        <h3>Paul Biker Analysis Power BI</h3>
+        <p>Analysis of Premier League teams that finished top 4 without winning trophies.</p>
+        <a class="project-link" href="https://github.com/OlakariTaiwo/Paul-Biker" target="_blank">View Project</a>
+    </div>
+    
+    <div class="project-card">
+        <h3>Retail Store Analysis HTML</h3>
+        <p>Comprehensive insights into retail sales trends.</p>
+        <a class="project-link" href="https://github.com/OlakariTaiwo/Retail-Store-Analysis" target="_blank">View Project</a>
+    </div>
+</div>
 
 <footer>
-  <p>&copy; 2025 Gbadamosi Taiwo. All Rights Reserved.</p>
+    <p>&copy; 2025 Gbadamosi Taiwo. All Rights Reserved.</p>
 </footer>
 
 </body>
